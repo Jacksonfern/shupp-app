@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tela de login -->
+    <string name="link_cadastro">Cadastre-se</string>
+    <string name="text_app_name">Shupp</string>
+    <string name="edit_text_usuario">Usuário</string>
+    <string name="edit_text_senha">Senha</string>
+    <string name="button_login">Entrar</string>
+    <string name="link_esqueceu_senha">Esqueceu sua senha?</string>
+
+    <!-- Tela de cadastro -->
+    <string name="link_login">Fazer login</string>
+    <string name="text_select_foto">Selecione uma foto de perfil</string>
+    <string name="button_prev">Voltar</string>
+    <string name="button_next">Próximo</string>
+    <string name="button_next_finalizar">Finalizar</string>
+    <!--<string name="edit_text_usuario">Usuário</string>-->
+    <string name="edit_text_email">Email</string>
+    <!--<string name="edit_text_senha">Senha</string>-->
+    <string name="edit_text_telefone">Telefone</string>
+    <string name="check_artista">Sou um artista de rua</string>
+    <string name="edit_text_bio">Biografia</string>
+    <string name="text_art_kind">Selecione o seu tipo de arte de rua</string>
+</resources>
