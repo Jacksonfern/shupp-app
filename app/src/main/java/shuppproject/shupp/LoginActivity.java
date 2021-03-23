@@ -4,7 +4,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -14,7 +14,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import shuppproject.users.*;
@@ -31,6 +30,16 @@ public class LoginActivity extends AppCompatActivity {
 
         buttonCadastro = findViewById(R.id.button_cadastro);
         buttonCadastro.setOnClickListener(buttonCadastroClick);
+
+        buttonLogin = findViewById(R.id.button_login);
+        buttonLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mainActivity = new Intent(LoginActivity.this, MainActivity.class);
+                startActivity(mainActivity);
+                finish();
+            }
+        });
     }
 
     Button.OnClickListener buttonCadastroClick = new View.OnClickListener() {
