@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Menus -->
+    <string name="menu_item_home">Feed</string>
+    <string name="menu_item_locais">Locais de Apresentação</string>
+    <string name="menu_item_eventos">Eventos</string>
+    <string name="menu_item_criar">Criar</string>
+    <string name="menu_item_loja">Loja</string>
+    <string name="menu_group_opcoes">Opções</string>
+    <string name="menu_item_configuracoes">Configurações</string>
+    <string name="menu_item_sair">Sair</string>
+    <string name="menu_item_add_anuncio">Anunciar</string>
+    <string name="menu_item_add_eventos">Criar</string>
+    <string name="menu_item_publicar">Publicar</string>
+    <string name="menu_item_usuario">Nome de usuário</string>
+    <string name="menu_item_filtrar">Filtrar</string>
+    <string name="menu_item_criar_grupo">Criar grupo</string>
+    <string name="menu_item_settings">Configurações</string>
+    <string name="menu_item_pesquisar">Pesquisar</string>
+    <string name="menu_item_set_location">Definir local</string>
+
     <!-- Tela de login -->
     <string name="link_cadastro">Cadastre-se</string>
     <string name="text_app_name">Shupp</string>
@@ -21,4 +40,47 @@
     <string name="check_artista">Sou um artista de rua</string>
     <string name="edit_text_bio">Biografia</string>
     <string name="text_art_kind">Selecione o seu tipo de arte de rua</string>
+
+    <!-- Tela principal -->
+    <string name="main_menu_title">Feed</string>
+    <string name="main_menu_eventos">Eventos</string>
+    <string name="main_menu_galeria">Galeria</string>
+    <string name="main_menu_locais">Locais de Apresentação</string>
+    <string name="email_example">user@example.com</string>
+    <string name="user_example">username</string>
+
+    <!-- Fragment home -->
+    <string name="home_button_curtir">Curtir</string>
+    <string name="home_button_comentar">Comentar</string>
+    <string name="home_foto_perfil">Foto de perfil</string>
+    <string name="home_fab_add_publicacao">Adicionar publicação</string>
+    <string name="home_publicacao_example_usuario">Nome de usuario</string>
+    <string name="home_publicacao_example_data">01/01/1971 às 00h:00m</string>
+    <string name="home_publicacao_example_descricao">
+        That will be the description of the picture. Please, say something interesting.
+    </string>
+    <string name="home_publicacao_example_image">Imagem</string>
+    <string name="home_publicacao_example_curtidas">20 pessoas curtiram isso</string>
+    <plurals name="home_publicacao_example_curtidas">
+        <item quantity="one">%d pessoa curtiu isso</item>
+        <item quantity="other">%d pessoas curtiram isso</item>
+    </plurals>
+
+    <!-- Fragment eventos -->
+    <string name="eventos_example_titulo">Título do evento</string>
+    <string name="eventos_example_endereco">Endereço</string>
+    <string name="eventos_example_data">01/01/1971</string>
+
+    <!-- Fragment locais-->
+    <string name="locais_example_artista">Nome do artista</string>
+    <string name="locais_example_estado">Cidade (Estado)</string>
+    <string name="locais_example_arte">Arte</string>
+
+    <!-- Tela de adicionar publicação -->
+    <string name="add_publicacao_foto_usuario">Foto de usuário</string>
+    <string name="add_publicacao_artista">Artista</string>
+    <string name="add_publicacao_arte">Arte</string>
+    <string name="add_publicacao_button_add_foto">Adicionar foto</string>
+    <string name="add_publicacao_edit_descricao">Escreva algo sobre sua arte...</string>
+    <string name="add_publicacao_foto_carregada">Foto carregada</string>
 </resources>

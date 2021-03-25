@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="onstreetproject.onstreet.Activities.homeActivity">
+
+    <item
+        android:id="@+id/opcao_filtrar"
+        android:icon="@mipmap/ic_filter_list"
+        android:title="@string/menu_item_filtrar"
+        app:showAsAction="ifRoom" />
+</menu>

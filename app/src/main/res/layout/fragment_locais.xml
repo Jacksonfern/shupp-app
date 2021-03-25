@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".mainfragment.LocaisFragment">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs_locais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/whiteColor"
+        app:tabMaxWidth="0dp"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorContent"
+        app:tabSelectedTextColor="@color/colorContent"
+        app:tabTextColor="@color/blackColor" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_locais"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

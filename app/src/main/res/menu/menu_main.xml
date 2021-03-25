@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@mipmap/ic_home"
+            android:title="@string/menu_item_home" />
+        <item
+            android:id="@+id/eventosFragment"
+            android:icon="@mipmap/ic_event"
+            android:title="@string/menu_item_eventos" />
+        <item
+            android:id="@+id/locaisFragment"
+            android:icon="@mipmap/ic_location"
+            android:title="@string/menu_item_locais" />
+    </group>
+
+    <item android:title="@string/menu_group_opcoes">
+        <menu>
+            <item
+                android:id="@+id/settings_fragment"
+                android:icon="@mipmap/ic_settings"
+                android:title="@string/menu_item_configuracoes" />
+            <item
+                android:id="@+id/sair"
+                android:icon="@mipmap/ic_update"
+                android:title="@string/menu_item_sair" />
+        </menu>
+    </item>
+</menu>

@@ -7,13 +7,28 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="shuppproject.shupp.mainFragments.HomeFragment"
-        android:label="Feed"
-        tools:layout="@layout/fragment_home" />
+        android:name="shuppproject.shupp.mainfragment.HomeFragment"
+        android:label="@string/main_menu_title"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_addPublicacaoActivity"
+            app:destination="@id/addPublicacaoActivity" />
+    </fragment>
 
     <fragment
-        android:id="@+id/gruposFragment"
-        android:name="shuppproject.shupp.mainFragments.GruposFragment"
-        android:label="fragment_grupos"
-        tools:layout="@layout/fragment_grupos" />
+        android:id="@+id/eventosFragment"
+        android:name="shuppproject.shupp.mainfragment.EventosFragment"
+        android:label="@string/main_menu_eventos"
+        tools:layout="@layout/fragment_eventos" />
+
+    <fragment
+        android:id="@+id/locaisFragment"
+        android:name="shuppproject.shupp.mainfragment.LocaisFragment"
+        android:label="@string/main_menu_locais"
+        tools:layout="@layout/fragment_locais" />
+    <activity
+        android:id="@+id/addPublicacaoActivity"
+        android:name="shuppproject.shupp.AddPublicacaoActivity"
+        android:label="activity_add_publicacao"
+        tools:layout="@layout/activity_add_publicacao" />
 </navigation>
