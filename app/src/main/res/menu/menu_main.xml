@@ -18,11 +18,11 @@
     <item android:title="@string/menu_group_opcoes">
         <menu>
             <item
-                android:id="@+id/settings_fragment"
+                android:id="@+id/perfilActivity"
                 android:icon="@mipmap/ic_settings"
                 android:title="@string/menu_item_configuracoes" />
             <item
-                android:id="@+id/sair"
+                android:id="@+id/loginActivity"
                 android:icon="@mipmap/ic_update"
                 android:title="@string/menu_item_sair" />
         </menu>

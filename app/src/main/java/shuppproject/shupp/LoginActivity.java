@@ -16,8 +16,6 @@ import java.util.List;
 
 import android.os.Bundle;
 
-import shuppproject.users.*;
-
 public class LoginActivity extends AppCompatActivity {
 
     private Button buttonLogin, buttonCadastro;

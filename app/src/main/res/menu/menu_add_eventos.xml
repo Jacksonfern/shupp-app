@@ -5,7 +5,7 @@
     tools:context="onstreetproject.onstreet.Activities.addAnuncioActivity">
 
     <item
-        android:id="@+id/opcao_criar"
-        android:title="@string/menu_item_criar"
+        android:id="@+id/menu_item_anunciar"
+        android:title="@string/menu_item_add_anuncio"
         app:showAsAction="ifRoom" />
 </menu>

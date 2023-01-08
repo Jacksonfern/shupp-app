@@ -19,16 +19,39 @@
         android:id="@+id/eventosFragment"
         android:name="shuppproject.shupp.mainfragment.EventosFragment"
         android:label="@string/main_menu_eventos"
-        tools:layout="@layout/fragment_eventos" />
+        tools:layout="@layout/fragment_eventos" >
+        <action
+            android:id="@+id/action_eventosFragment_to_addEventoActivity"
+            app:destination="@id/addEventoActivity" />
+    </fragment>
 
     <fragment
         android:id="@+id/locaisFragment"
         android:name="shuppproject.shupp.mainfragment.LocaisFragment"
         android:label="@string/main_menu_locais"
         tools:layout="@layout/fragment_locais" />
+
     <activity
         android:id="@+id/addPublicacaoActivity"
         android:name="shuppproject.shupp.AddPublicacaoActivity"
         android:label="activity_add_publicacao"
         tools:layout="@layout/activity_add_publicacao" />
+
+    <activity
+        android:id="@+id/addEventoActivity"
+        android:name="shuppproject.shupp.AddEventoActivity"
+        android:label="activity_add_evento"
+        tools:layout="@layout/activity_add_evento" />
+
+    <activity
+        android:id="@+id/perfilActivity"
+        android:name="shuppproject.shupp.PerfilActivity"
+        android:label="activity_perfil"
+        tools:layout="@layout/activity_perfil" />
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="shuppproject.shupp.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
 </navigation>

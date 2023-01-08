@@ -9,6 +9,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="title_activity_add_publicacao">Adicionar publicação</string>
+    <string name="title_activity_add_evento">Adicionar evento</string>
     <string name="title_activity_chat">Hulk</string>
     <string name="title_activity_gallery">Galeria</string>
     <string name="title_activity_galeria">galeriaActivity</string>

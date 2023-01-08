@@ -3,12 +3,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".mainfragment.EventosFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyler_view_eventos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/list_item_eventos" />
+        tools:listitem="@layout/list_item_evento" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add_evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="end|bottom"
+        app:fabSize="normal"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@color/whiteColor"
+        android:contentDescription="@string/eventos_fab_add_evento"/>
 
 </FrameLayout>

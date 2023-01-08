@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Artes -->
+    <string name="arte_circense">Arte Circense</string>
+    <string name="arte_artesanato">Artesanato</string>
+    <string name="arte_danca">Dança</string>
+    <string name="arte_estatua_viva">Estátua viva</string>
+    <string name="arte_graffiti">Graffiti</string>
+    <string name="arte_mimica">Mícica</string>
+    <string name="arte_musica">Música</string>
+    <string name="arte_palhaco">Palhaço</string>
+    <string name="arte_pintura">Pintura</string>
+    <string name="arte_teatro">Teatro</string>
+    <string name="arte_outra">Outra</string>
+
     <!-- Menus -->
     <string name="menu_item_home">Feed</string>
     <string name="menu_item_locais">Locais de Apresentação</string>
@@ -49,7 +62,7 @@
     <string name="email_example">user@example.com</string>
     <string name="user_example">username</string>
 
-    <!-- Fragment home -->
+    <!-- Fragment home feed-->
     <string name="home_button_curtir">Curtir</string>
     <string name="home_button_comentar">Comentar</string>
     <string name="home_foto_perfil">Foto de perfil</string>
@@ -65,11 +78,15 @@
         <item quantity="one">%d pessoa curtiu isso</item>
         <item quantity="other">%d pessoas curtiram isso</item>
     </plurals>
+    <string name="home_bottom_nav_feed">Publicações</string>
+    <string name="home_bottom_nav_artistas">Artistas</string>
+    <string name="home_button_chat">Chat</string>
 
     <!-- Fragment eventos -->
     <string name="eventos_example_titulo">Título do evento</string>
     <string name="eventos_example_endereco">Endereço</string>
     <string name="eventos_example_data">01/01/1971</string>
+    <string name="eventos_fab_add_evento">Adicionar evento</string>
 
     <!-- Fragment locais-->
     <string name="locais_example_artista">Nome do artista</string>
@@ -81,6 +98,18 @@
     <string name="add_publicacao_artista">Artista</string>
     <string name="add_publicacao_arte">Arte</string>
     <string name="add_publicacao_button_add_foto">Adicionar foto</string>
-    <string name="add_publicacao_edit_descricao">Escreva algo sobre sua arte...</string>
+    <string name="add_publicacao_edit_descricao">Escreva algo sobre sua arte&#8230;</string>
     <string name="add_publicacao_foto_carregada">Foto carregada</string>
+
+    <string name="add_evento_input_outra_arte">Qual a arte de rua?</string>
+    <string name="add_evento_input_titulo">Título</string>
+    <string name="add_evento_input_descricao">Descrição</string>
+    <string name="add_evento_text_data">Data</string>
+    <string name="add_evento_text_inicio">Início:</string>
+    <string name="add_evento_text_termino">Término:</string>
+    <string name="add_evento_text_participantes">Participantes</string>
+    <string name="add_evento_image_button_add_participantes">Adicionar participantes</string>
+    <string name="add_evento_text_local">Local</string>
+    <string name="add_evento_edit_endereco">Endereço</string>
+    <string name="add_evento_button_mapa">Definir no mapa</string>
 </resources>
